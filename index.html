@@ -59,34 +59,34 @@
 				<button class="bg-gray-800 mb-8 text-yellow-100 w-full py-2 hover:bg-slate-500 text-2xl">Start here</button>
 				</div>
 			</section>
-			<section class="information bg-gray-100 md:flex flex-row md:px-6 md:py-8 md:gap-6">
-				<div class="hidden md:block w-[60%]">
+			<section class="information bg-gray-100 md:flex flex-row md:pl-6 md:gap-6">
+				<div class="hidden md:block w-[60%] pt-8 pb-8">
 					<img src="images/information-main.jpg">
-					<h2 class="pt-8 pb-6">It doesn't hurt to keep practicing</h2>
-					<p>“Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula.”</p>
+					<h2 class="pt-8 pb-6 text-4xl font-bold text-gray-600">It doesn't hurt to keep practicing</h2>
+					<p class="pb-6">“Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula.”</p>
 					<p>Emanuel, Sr Strategist at Hiring.com</p>
 				</div>
-				<div class="hidden md:block">
-					<div>
-						<img src="images/information-orientation.jpg">
-						<div class="pl-4 py-16">
-						<h3 class="text-2xl pb-1 font-semibold">Orientation date</h3>
+				<div class="hidden md:block w-[40%]">
+					<div class="md:flex border-l border-b border-gray-500 pt-8 hover:bg-slate-300">
+						<img src="images/information-orientation.jpg" class="p-4 w-[35%]">
+						<div class="pl-4 py-16 w-[65%]">
+						<h3 class="text-2xl pb-1 font-semibold w-[65%]">Orientation date</h3>
 						<p class="pb-1">Tue 10/11 & Wed 10/12: 8am-3pm
 						</p>
 						<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="text-blue-600">Read more</a>
 						</div>
 					</div>
-					<div>
-						<img src="images/information-campus.jpg">
-						<div class="pl-4 py-16">
+					<div class="md:flex  border border-gray-500 hover:bg-slate-300">
+						<img src="images/information-campus.jpg" class="p-4 w-[35%]">
+						<div class="pl-4 py-16 w-[65%]">
 						<h3 class="text-2xl pb-1 font-semibold">Our campus</h3>
 						<p class="pb-1">Find which campus is close by you
 						</p>
 						<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="text-blue-600">Read more</a>
 						</div>
 					</div>
-					<div>
-						<img src="images/information-guest-lecture.jpg">
+					<div class="md:flex border-l border-t border-gray-500 pb-8 hover:bg-slate-300">
+						<img src="images/information-guest-lecture.jpg" class="p-4 w-[35%]">
 						<div class="pl-4 pt-16">
 						<h3 class="text-2xl pb-1 font-semibold">Special guest lecture</h3>
 						<p class="pb-1">Join a keynote with Oliver Sack about music in medical treatment
@@ -125,11 +125,85 @@
 					</div>
 				</div>
 			</section>
-			<section class="course">
-
+			<section class="course bg-gray-100 md:bg-slate-300 pt-8">
+				<h2 class="text-4xl font-bold text-gray-600 w-full text-center">Start learning</h2>
+				<div class="md:hidden flex flex-col pt-4 gap-2 pb-8 items-start px-4">
+					<button class="text-start w-full bg-slate-300 pt-4 pl-4 pb-6 text-2xl hover:bg-slate-500">Software engineering</button>
+					<button class="text-start w-full bg-slate-300 pt-4 pl-4 pb-6 text-2xl hover:bg-slate-500">Computer art</button>
+					<button class="text-start w-full bg-slate-300 pt-4 pl-4 pb-6 text-2xl hover:bg-slate-500">Design</button>
+					<button class="text-start w-full bg-slate-300 pt-4 pl-4 pb-6 text-2xl hover:bg-slate-500">Data</button>
+					<button class="text-start w-full bg-slate-300 pt-4 pl-4 pb-6 text-2xl hover:bg-slate-500">Business</button>
+					<button class="text-start w-full bg-slate-300 pt-4 pl-4 pb-6 text-2xl hover:bg-slate-500">Marketing</button>
+				</div>
+				<div class="hidden md:grid grid-cols-3 py-8 px-18 gap-8 ">
+					<div class="bg-slate-100">
+						<img src="images/course-software.jpg">
+						<div class="bg-slate-100 pt-4 pl-4 pb-8">
+						<p class="text-3xl font-semibold">Software engineering</p>
+						<p class="text-2xl py-2">COURSES</p>
+						<p class="text-2xl">Web Development, Mobile Development, iOT, APIs</p>
+						</div>
+					</div>
+					<div class="bg-slate-100">
+						<img src="images/course-computer-art.jpg">
+						<div class="bg-slate-100 pt-4 pl-4 pb-8">
+						<p class="text-3xl font-semibold">Computer art</p>
+						<p class="text-2xl py-2">COURSES</p>
+						<p  class="text-2xl">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+						</div>
+					</div>
+					<div class="bg-slate-100">
+						<img src="images/course-design.jpg">
+						<div class="bg-slate-100 pt-4 pl-4 pb-8">
+						<p class="text-3xl font-semibold">Design</p>
+						<p class="text-2xl py-2">COURSES</p>
+						<p  class="text-2xl">User Experience Design, User Research, Visual Design</p>
+						</div>
+					</div>
+					<div class="bg-slate-100">
+						<img src="images/course-data.jpg">
+						<div class="bg-slate-100 pt-4 pl-4 pb-8">
+						<p class="text-3xl font-semibold">Data</p>
+						<p class="text-2xl py-2">COURSES</p>
+						<p class="text-2xl">Data Science, Big Data, SQL, Data Visualization</p>
+						</div>
+					</div>
+					<div class="bg-slate-100">
+						<img src="images/course-business.jpg">
+						<div class="bg-slate-100 pt-4 pl-4 pb-8">
+						<p class="text-3xl font-semibold">Business</p>
+						<p class="text-2xl py-2">COURSES</p>
+						<p class="text-2xl">Product Development, Business Development, Startup</p>
+						</div>
+					</div>
+					<div class="bg-slate-100">
+						<img src="images/course-marketing.jpg">
+						<div class="bg-slate-100 pt-4 pl-4 pb-8">
+						<p class="text-3xl font-semibold">Marketing</p>
+						<p class="text-2xl py-2">COURSES</p>
+						<p class="text-2xl">Analytics, Content Marketing, Mobile Marketing</p>
+						</div>
+					</div>
+				</div>
 			</section>
-			<section class="thesis">
-
+			<section class="thesis pt-8 pb-6">
+				<h2 class="text-4xl font-bold text-gray-600 w-full text-center pb-4 md:pb-8">Thesis exhibits</h2>
+				<div class="flex flex-row">
+				<div class="md:w-[60%]">
+					<video src="videos/thesis.mp4" controls></video>
+					<div class="hidden md:w-[60%]">
+						<p>1</p>
+					</div>
+				</div>
+				<div class="hidden md:block">
+					<div>
+						<p>1</p>
+					</div>
+					<div>
+						<p>1</p>
+					</div>
+				</div>
+				</div>
 			</section>
 		</main>
 		<footer class="bg-gray-900">
